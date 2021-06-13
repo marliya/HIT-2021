@@ -12,7 +12,8 @@ public class AreaOFTriangle {
  	   System.out.println("enter the height :");
  	   double height = scanner.nextDouble();
  	   double area=(base * height)/2;
-	   System.out.println("Area of triangle is :"+area);	   
+	   System.out.println("Area of triangle is :"+area);	
+	   scanner.close();
 
 
 	}

@@ -13,6 +13,7 @@ public class AreaOfSquare {
 	   
 	   int area = side * side;
 	   System.out.println("Area of the square is :"+area);
+	   scanner.close();
 
 	}
 

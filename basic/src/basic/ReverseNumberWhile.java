@@ -22,7 +22,7 @@ public class ReverseNumberWhile {
 			
 		}
 		System.out.println("Reverse of input number is: "+reversenum);
-
+        in.close();
 	}
 
 }

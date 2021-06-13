@@ -1,10 +1,6 @@
-
-package basic;
-
 import java.util.Scanner;
 
-public class primeCheck {
-
+public class PrimeOrNot {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int temp;
@@ -28,3 +24,5 @@ public class primeCheck {
    
 	
 }
+
+
