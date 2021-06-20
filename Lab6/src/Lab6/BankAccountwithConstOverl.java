@@ -2,7 +2,7 @@ package Lab6;
 
 import java.util.Scanner;
 
-public class BankAccountwithConstructor {
+public class BankAccountwithConstOverl {
 	// TODO Auto-generated method stub
 			public String customerName;
 			public String accNo;
@@ -10,8 +10,14 @@ public class BankAccountwithConstructor {
 			public float balance;
 			public float depositAmount;
 			
-			public BankAccountwithConstructor() {  //Constructor
+			public BankAccountwithConstOverl() {  //Constructor
 				balance = 1000;
+				System.out.println("Initial amount while creating account is "+balance);
+			}
+			
+			public BankAccountwithConstOverl(int amount) {  //Constructor overloading
+				balance = 1000;
+				balance = balance + amount;
 				System.out.println("Initial amount while creating account is "+balance);
 			}
 			
@@ -40,7 +46,7 @@ public class BankAccountwithConstructor {
 
 		
 			public static void main(String[] args) {
-				BankAccountwithConstructor obj1 = new BankAccountwithConstructor();
+				BankAccountwithConstOverl obj1 = new BankAccountwithConstOverl(5000);
 				obj1.CustDetail();
 				obj1.deposit(5000);
 				obj1.PrintStatus();
